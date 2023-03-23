@@ -1,0 +1,38 @@
+.flex{
+    display: flex;  /*Align contents in one lign*/
+    
+}
+.alignitem{
+ align-items: center; /* align img center */
+}
+.aligntext{
+    text-align: center;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.semibolt{
+    font-weight: bold;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+.m2{ /**/
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.shadow{
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+}
+.section{
+    background-color: rgb(245 234 234);
+    
+}
+.navfixer{
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.marginleft{
+    margin-left: -30px;
+}

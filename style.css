@@ -1,0 +1,92 @@
+html,
+body {
+    font-family: sans-serif, 'Courier New', Courier, monospace;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    /*navigation dont move up down*/
+    padding: 0;
+    /*navigation dont move up down*/
+}
+
+.left img {
+    /*logo*/
+    height: 36px;
+    width: 55px;
+}
+
+.container {
+    /*to make center*/
+    padding: 0 10px;
+    margin: auto;
+}
+
+ul li,
+.right {
+    list-style: none;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.searchbar {
+    width: 14vw;
+    height: 6vh;
+    background: #0000001f;
+    border: none;
+    border-radius: 5px;
+    padding: 0 7px;
+    font-size: 16px;
+}
+
+.homeimg {
+    width: 100%;
+}
+
+footer {
+    background: rgb(255, 182, 182);
+    padding: 15px 23px;
+    font-size: 14px;
+    width: 100%;
+}
+
+.appimg img {
+    width: 6rem;
+    height: 2rem;
+}
+
+@media (max-width:700px) {
+    .section,
+    footer {
+        width: 105%;
+    }
+}
+
+@media (max-width:600px) {
+    .section,footer {
+        width: 123%
+    }
+}
+
+@media (max-width:500px) {
+    .section,footer {
+        width: 148%
+    }
+}
+
+@media (max-width:400px) {
+    .section,footer {
+        width: 180%
+    }
+}
+
+@media (max-width:300px) {
+.section,footer {
+        width: 230%;
+    }
+}
+
+@media (max-width:200px) {
+    .section,footer {
+        width: 257%;
+    }
+}
